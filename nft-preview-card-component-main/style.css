@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit");
+
+:root {
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+	--main-bg: hsl(217, 54%, 11%);
+	--card-bg: hsl(216, 50%, 16%);
+	--line: hsl(215, 32%, 27%);
+	--header: hsl(0, 0%, 100%);
+}
+
+html,
+body {
+	width: min(1024px, 100%);
+	height: min(720px, 100%);
+	font-family: Outfit;
+	font-size: 18px;
+	background-color: var(--main-bg);
+}
+
+.nft-card {
+	width: 250px;
+	height: 500px;
+	background-color: var(--card-bg);
+	border-radius: 10px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 20px;
+	transform: translate(0, 25%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.nft-card img {
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+}
+
+.card-details {
+	padding: 20px 0;
+}
+
+.card-details > p {
+	margin: 0;
+}
+
+.sub-header {
+	font-size: 15px;
+}
+
+.header {
+	color: var(--header);
+	font-weight: 600;
+}
